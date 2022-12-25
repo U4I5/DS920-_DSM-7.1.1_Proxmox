@@ -13,5 +13,6 @@ Xpenology DSM 7.1.1 Proxmox ( tinycore-redpill )
   #This command add acpid Driver
 ./rploader.sh ext ds920p-7.1.1-42962 add https://raw.githubusercontent.com/pocopico/redpill-load/develop/redpill-acpid/rpext-index.json
 
+./rploader.sh build ds920p-7.1.1-42962
 ./rploader.sh backup now
 ```
